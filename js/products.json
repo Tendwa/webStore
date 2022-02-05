@@ -1,0 +1,158 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "off-white jacket",
+        "category": "off-white",
+        "price": 2500,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/off-white1black.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Supreme Hoodies",
+        "category": "supreme",
+        "price": 2700,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/supreme-hoodie2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Army Print Denim",
+        "category": "denim",
+        "price": 2700,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/army-print-jacket.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Slim-fit Denim",
+        "category": "denim",
+        "price": 2700,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/denim1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Off-white Hoodie",
+        "category": "denim",
+        "price": 2700,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/off-white-hoodie-black.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Light Denim",
+        "category": "denim",
+        "price": 2700,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/denim3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Heavy Denim",
+        "category": "denim",
+        "price": 2700,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/denim4.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Supreme Denim",
+        "category": "supreme",
+        "price": 2700,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/off-white1black.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "9"
+      },
+      "fields": {
+        "title": "off-white Hoodie",
+        "category": "off-white",
+        "price": 2000,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/supreme-hoodie3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "10"
+      },
+      "fields": {
+        "title": "off-white Rain Jacket",
+        "category": "off-white",
+        "price": 2700,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./images/off-white2white.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

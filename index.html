@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>storeDemo</title>
+    <!---Fontawesome links-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fontawesome-free-5.12.0-web/css/all.min.css"
+    />
+
+    <!---CSS links-->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!---navBar-->
+    <nav class="navBar-wrap">
+      <div class="row navBar">
+        <div class="left-nav col-md-4">
+        <span class="nav-icons">
+          <i class="fas fa-bars"></i>
+        </span>
+      </div>
+        <div class="col-md-4 title-wrap">
+          <img src="/images/logo/GADGET CONNECT LOGO-1.png" alt="gcLogo">
+          <!-- <h1 class="headerTittle">
+            Drip <span class="headerSpan">Drip</span>
+          </h1> -->
+        </div>
+        <div class="col-md-4 nav-btns">
+        <div class="col-md-6 cart-btn">
+          <span class="nav-icons">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+        </div>
+      </div>
+    </nav>
+    <!---/navBar-->
+
+    <!----banner---->
+    <header class="banner">
+      <div class="highlights">
+        <button class="banner-btn">Shop now</button>
+      </div>
+    </header>
+    <!---/banner-->
+
+    <!--Search section-->
+    <!-- <div class="col-md-6 inputWrap">
+        <i class="fas fa-search"></i>
+        <ul class="ul-list" id="ulList"></ul>
+      
+    </div> -->
+    <!--End of Search section-->
+    <!--products-->
+
+    <div class="titleWrap">
+      <div class="col-md-6 titleDiv">
+        <h2>our products</h2>
+      </div>
+        <div class="searchDiv">
+          <form class="searchForm" action="">
+            <input type="text" 
+            placeholder="Search" 
+            autocomplete="off"
+            id="searchInput"/>
+            <ul class="ul-list" id="ulList"></ul>
+          </form>
+          
+          <div class="searchIcon">  
+           <i class="fas fa-search"></i>
+          </div>
+        </div>
+    </div>
+
+    <section class="product-section">
+      <div class="product-list">
+        <!--first product-->
+        <!----   <article class="product">
+            <div class="product-wrap">
+                <img src="./images/off-white1black.jpg" alt="product" class="product-img"/>
+                <button class="add-cart-btn" data-id="1">
+                    <i class="fas fa-shopping-cart"></i>
+                    Add to cart
+                </button>
+            </div>
+            <h3>Off-white Jacket</h3>
+            <h4>ksh.2700/=</h4>
+        </article> -->
+        <!--/first product-->
+      </div>
+    </section>
+    <!--/products-->
+
+    <!--cart-->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>your cart</h2>
+        <div class="cart-wrap">
+          <!--cart items-->
+          <div class="cart-layout"></div>
+          <!--/cart items-->
+        </div>
+        <div class="cart-footer">
+          <h3>your total : ksh. <span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">clear cart</button>
+        </div>
+      </div>
+    </div>
+    <!--/cart-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
